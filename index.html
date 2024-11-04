@@ -13,18 +13,120 @@
     <title>Portfólio</title>
 </head>
 <body>
-    <header>
-        <div id="navbar">
-           <a href="">HOME</a>
-           <a href="">SOBRE MIM</a>
-           <a href="">HABILIDADES</a>
-           <a href="">PROJETOS</a>
-           <a href="">CONTATO</a>
-           
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio de Maria Fernanda</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre mim</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- Main Section -->
+        <main>
+            <section class="intro">
+                <div class="logo"> 
+                    <img src="perfil__1_-removebg-preview.png" alt="logo">
+                </div>
+                <h1>Bem vindo(a) ao meu portfólio!</h1>
+                <p>Olá! Me chamo Maria Fernanda Melo e Reis, sou apaixonada por tecnologia, front-end e design. Confira meus projetos e habilidades abaixo!</p>
+                <div class="profile-image">
+                    <img src="perfil.png" alt="Foto de Maria Fernanda">
+                </div>
+            </section>
+    
+            <!-- Sobre Mim Section -->
+            <section class="about">
+                <h2>Sobre Mim</h2>
+                <p>Tenho 16 anos e sou estudante de Ensino Médio integrado com Técnico em Informática. Tenho experiência em desenvolvimento front-end com HTML e CSS, além de conhecimento em lógica de programação com C# e banco de dados MySQL. Estou sempre buscando aprender e evoluir na área de tecnologia e design.</p>
+            </section>
+        </main>
+
+        <!-- Seção de Habilidades -->
+<section class="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills-container">
+        <div class="skill-card">Desenvolvimento Front-End: HTML, CSS</div>
+        <div class="skill-card">Banco de Dados: MySQL, WAMP, TerraER, SQL</div>
+        <div class="skill-card">Configuração de Sistemas Operacionais</div>
+        <div class="skill-card">Robótica e Manutenção de Computadores</div>
+        <div class="skill-card">Inglês Intermediário</div>
+        <div class="skill-card">Programação: C#</div>
+        <div class="skill-card">Canva, Figma, aplicativos de edição de vídeo e fotos</div>
+        <div class="skill-card">Pacote Office e Ferramentas Google</div>
+    </div>
+</section>
+
+<!-- Seção de Projetos -->
+<section class="projetos">
+    <h2>Projetos</h2>
+    <div class="project-container">
+        <!-- Projeto 1 -->
+        <div class="project-card">
+            <img src="image.png" alt="Poke To Go" class="project-image">
+            <div class="project-info">
+                <h3>Poke To Go</h3>
+                <p>Um site de delivery especializado em pokes, oferecendo uma variedade de opções para todos os gostos e necessidades. Com design clean, prático e que causa uma impressão positiva e personalizada.</p>
+                <a href="#" class="visit-button pink-button">Visitar o Site</a>
+            </div>
         </div>
-        <div>
+        <!-- Projeto 2 -->
+        <div class="project-card">
+            <img src="ogani.png" alt="Ogani" class="project-image">
+            <div class="project-info">
+                <h3>Ogani</h3>
+                <p>Plataforma de compras de alimentos saudáveis, com uma seleção de carnes, frutas, verduras e produtos orgânicos. O site oferece uma experiência intuitiva, com categorias práticas e focadas em alimentação balanceada.</p>
+                <a href="#" class="visit-button green-button">Visitar o Site</a>
+            </div>
         </div>
-    </header>
+    </div>
+</section>
+
+
+<section class="contact-section">
+    <h2>Contato</h2>
+    <form action="#">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Nome" required>
+        </div>
+        <div class="form-group">
+            <input type="tel" name="phone" placeholder="Telefone" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <textarea name="message" placeholder="Mensagem" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+    <div class="social-icons">
+        <a href="#"><img src="email-icon.png" alt="" width="24"></a>
+        <a href="#"><img src="github-icon.png" alt="" width="24"></a>
+        <a href="#"><img src="linkedin-icon.png" alt="" width="24"></a>
+    </div>
+</section>
+
+
+<section class="footer-section">
+    <div class="decorative-icon">✦</div>
+    <p>Você pode entrar em contato comigo pelo e-mail: <a href="mailto:fernanda.meloereis@gmail.com">fernanda.meloereis@gmail.com</a></p>    
+    <p>&copy; 2024 Maria Fernanda Melo e Reis. Todos os direitos reservados.</p>
+</section>
+
+
+
 
 </body>
 </html>
